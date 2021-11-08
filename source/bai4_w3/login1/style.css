@@ -1,0 +1,64 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box; }
+
+.container {
+  width: 18.125em;
+  min-height: 3.75em;
+  margin: 3em auto; }
+  .container a {
+    text-decoration: none;
+    color: #87a2ef; }
+  .container header a {
+    float: right; }
+    .container header a img {
+      width: 100%;
+      height: 3.75em;
+      margin-bottom: 2em; }
+  .container header span {
+    color: black;
+    font-size: 1.5em; }
+  .container header p {
+    width: 100%;
+    height: 2.5em;
+    margin: 1em auto;
+    background: #ef3e46;
+    color: white;
+    border-radius: 0.2em;
+    line-height: 2.5em;
+    padding-left: 0.8em; }
+  .container form .user {
+    width: 100%;
+    height: 2.1875em;
+    line-height: 2.1875em;
+    background: #e8f0fd;
+    margin-bottom: 0.8em;
+    border-radius: 0.2em; }
+    .container form .user input {
+      background: inherit;
+      border: none; }
+    .container form .user input:focus {
+      outline: none; }
+    .container form .user i {
+      margin: auto 0.8em;
+      cursor: pointer; }
+    .container form .user #eye {
+      margin-left: 1.5em; }
+  .container form .suport {
+    margin-bottom: 0.8em; }
+    .container form .suport a {
+      float: right; }
+  .container form input[type=submit] {
+    width: 100%;
+    height: 2.1875em;
+    background: #007dfe;
+    border: none;
+    border-radius: 1.1em;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0.8em; }
+  .container footer {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

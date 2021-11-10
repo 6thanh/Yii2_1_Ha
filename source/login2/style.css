@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url("images.jpg");
+  background-size: cover;
+  color: white;
+  padding-top: 4.6875em; }
+  .container .main {
+    width: 20.3125em;
+    min-height: 4.6875em;
+    margin: auto; }
+    .container .main a {
+      text-decoration: none;
+      color: white; }
+    .container .main h1 {
+      height: 2em;
+      text-align: center; }
+    .container .main .user {
+      border-bottom: 1px solid white;
+      padding: 0.8em 0em;
+      margin-bottom: 0.5em; }
+      .container .main .user input {
+        background: inherit;
+        margin-left: 0.8em;
+        border: none; }
+      .container .main .user input:focus {
+        outline: none; }
+      .container .main .user i {
+        cursor: pointer; }
+      .container .main .user span i {
+        margin-left: 5em; }
+    .container .main .suport {
+      margin: 1em 0em; }
+      .container .main .suport input[type=checkbox] {
+        margin-right: 0.7em; }
+      .container .main .suport a {
+        float: right; }
+    .container .main #submit {
+      width: 100%;
+      height: 2em;
+      background: #ff3366;
+      color: white;
+      border: none;
+      border-radius: 0.2em;
+      margin: 0.5em 0em; }
+    .container .main .or p {
+      background: #ff3366;
+      border-radius: 50%;
+      width: 2em;
+      height: 2em;
+      line-height: 2em;
+      margin: 1em auto;
+      text-align: center; }
+    .container .main .facebook {
+      display: inline-block;
+      width: 9.5625em;
+      height: 1.5625em;
+      line-height: 1.5625em;
+      border-radius: 0.2em;
+      background: #3b62a3; }
+      .container .main .facebook i {
+        margin: 0em 0.5em; }
+      .container .main .facebook span {
+        border-left: 1px solid #5c85bd;
+        padding-left: 0.5em; }
+    .container .main .twitter {
+      display: inline-block;
+      width: 9.5625em;
+      height: 1.5625em;
+      line-height: 1.5625em;
+      border-radius: 0.2em;
+      background: #19b0e7;
+      float: right; }
+      .container .main .twitter i {
+        margin: 0em 0.5em; }
+      .container .main .twitter span {
+        border-left: 1px solid #3cb7f2;
+        padding-left: 0.5em; }
+  .container footer {
+    position: fixed;
+    bottom: 1em; }
+    .container footer .text_footer {
+      margin-left: 35vw; }
+
+/*# sourceMappingURL=style.css.map */

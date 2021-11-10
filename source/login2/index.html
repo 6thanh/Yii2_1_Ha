@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login 2</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Classy Login Form</h1>
+            <form action="#">
+                <div class="user">
+                    <label for="userId">
+                        <i class="fas fa-user"></i>
+                    </label>
+                    <input type="text" id="userId" name="userId" placeholder="User name" required="" style="color: white">
+                </div>
+                <div class="user">
+                    <label for="password">
+                        <i class="fas fa-lock"></i>
+                    </label>
+                    <input type="password" id="password" name="password" placeholder="********" required="" style="color: white">
+                    <span id="eye">
+                        <i class="far fa-eye-slash"></i>
+                    </span>
+                </div>
+                <div class="suport">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <input type="submit" name="login" value="Login" id="submit">
+            </form>
+            <div class="or">
+                <p>or</p>
+                <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <p class="text_footer">&copy 2021 Classy Login Form. All right Reserved</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
